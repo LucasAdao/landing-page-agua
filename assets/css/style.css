@@ -1,0 +1,144 @@
+/*
+---- Fontes ----
+*/
+/* "Madimi One", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+/* "Ojuju", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+/* "Montserrat", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&display=swap');
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+/*
+Primeiro Container
+*/
+.primeiroContainer{
+    height: 650px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.primeiroContainer__video{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+    filter:brightness(0.7);
+}
+.primeiroContainer__content{
+    z-index: 1;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    align-items: center;
+    text-align: center;
+}
+.primeiroContainer__content h4{
+    font-size: 25px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    color: whitesmoke;
+    filter: brightness(1.2);
+    margin-top: 9%;
+}
+.primeiroContainer__content p{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1%;
+    font-weight: 400;
+    filter: brightness(0.9);
+    font-size: 16px;
+    line-height: 1.4;
+}
+/*
+Segundo Container
+*/
+.segundoContainer{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(74, 173, 177);
+    flex-direction: column;
+}
+.segundoContainer__content{
+    margin: 3%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.segundoContainer__card{
+    height: 35%;
+    margin: 3%;
+    width: 230px;
+    border:1px solid aquamarine;
+    text-align: center;
+}
+.segundoContainer__card p{
+    font-family:"Madimi One", sans-serif;
+    font-weight: 250;
+    color: white;
+}
+
+.segundoContainer__card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.segundoContainer__card img:hover{
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+/*
+Terceiro Container
+*/
+.terceiroContainer{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(0, 162, 255);
+}
+.terceiroContainer__esquerda{
+    height: 100%;
+    width: 35%;
+    border-right: 1px solid rgb(0, 162, 255);
+    background-color: rgb(157, 238, 238);
+}
+.terceiroContainer__esquerda img{
+    object-fit: cover;
+    height: 100%;
+}
+.terceiroContainer__direita{
+    height: 100%;
+    width: 65%;
+}
+.terceiroContainer__direita h2{
+    font-family:"Madimi One", sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+.terceiroContainer__direita p{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: justify;
+}
+.terceiroContainer__recado:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
