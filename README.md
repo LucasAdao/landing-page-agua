@@ -3,4 +3,4 @@
 <h1>Para Acessar:</h1>
 <a href="https://lucasadao.github.io/landing-page-agua/" target="_blank">https://lucasadao.github.io/landing-page-agua/</a>
 
-Obs: Ainda não apliquei responsividade nesse projeto, então se você quiser ter uma experiência efetiva, acesse via computador!
+Obs: Ainda não apliquei responsividade nesse projeto, então se você quiser ter uma experiência efetiva, acesse via desktop!
